@@ -1,0 +1,20 @@
+.topNavigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.littleMargin {
+  margin-top: 1rem;
+}
+.selectNumber {
+  width: 65px;
+  height: 65px;
+}
+.numbers {
+  margin-top: 2rem;
+  display: grid;
+  /* padding: 1rem; */
+  grid-template-columns: repeat(5, 65px);
+  grid-template-rows: repeat(2, 65px);
+  gap: 0.3rem;
+}

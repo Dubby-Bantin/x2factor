@@ -1,0 +1,282 @@
+.wallet {
+  background-color: #508c9b;
+  padding: 0.7rem;
+  border-radius: 8px;
+  margin-top: 2rem;
+}
+.walletpng {
+  width: 20px;
+  height: 20px;
+}
+.balance {
+  text-align: center;
+}
+.balanceName {
+  display: flex;
+  justify-content: center;
+}
+button {
+  width: 40%;
+  padding: 0.8rem 2rem;
+  border: none;
+  border-radius: 50px;
+}
+.withdraw {
+  background-color: rgb(228, 60, 60);
+  color: white;
+}
+.deposit {
+  background-color: #17b660;
+  color: white;
+}
+.actionButtons {
+  display: flex;
+  margin-top: 1rem;
+  justify-content: space-between;
+}
+.timepng {
+  width: 40px;
+  height: 40px;
+}
+.durationSelectContainer {
+  display: flex;
+  margin-top: 2rem;
+  padding: 1rem;
+  border-radius: 8px;
+  justify-content: space-between;
+  background-color: black;
+}
+.gameTime {
+  /* background-color: red; */
+  width: 25%;
+  cursor: pointer;
+  display: flex;
+  border-radius: 7px;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.gameTime p {
+  margin-top: -0.2rem;
+  font-size: 0.8rem;
+  text-align: center;
+}
+.selectedGame {
+  background-color: #508c9b;
+}
+.gameDetailsContainer {
+  width: 97%;
+  margin-top: 2rem;
+  margin: 2rem auto;
+  /* padding: 0.5rem; */
+  background-color: #508c9b;
+  mask-image: url("../assets/images/wingoticket.png");
+  mask-size: cover;
+  mask-repeat: no-repeat;
+  -webkit-mask-image: url("../assets/images/wingoticket.png"); /* For Webkit-based browsers */
+  -webkit-mask-size: cover;
+  -webkit-mask-repeat: no-repeat;
+  height: 104px;
+}
+.howtoplay {
+  margin: 0.4rem;
+  border: none;
+  width: 89%;
+  border: 1px solid white;
+  background-color: transparent;
+  color: white;
+  padding: 0.3rem;
+}
+.gameTitle {
+  margin: 0.3rem 0.8rem;
+  font-size: 0.8rem;
+}
+.sections {
+  display: flex;
+  /* background-color: red; */
+}
+.ticketSection1 {
+  width: 50%;
+}
+.lastGames {
+  display: flex;
+  /* background-color: red; */
+  width: 80%;
+  margin: 0.4rem;
+  justify-content: space-between;
+}
+.lastGames img {
+  width: 26px;
+  height: 26px;
+}
+.verticalLine {
+  width: 2px;
+  border-left: 2px dotted white;
+  height: 100px; /* Adjust the height as needed */
+}
+.ticketSection2 {
+  width: 50%;
+  /* padding: 0.4rem; */
+}
+.timeRemaining {
+  font-size: 0.8rem;
+  text-align: end;
+  padding-right: 0.8rem;
+}
+
+.countdown {
+  display: flex;
+  margin-top: -0.5rem;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 0.4rem;
+  /* background-color: red; */
+  margin-right: 0.8rem;
+}
+
+.digitContainer {
+  width: 30px; /* Adjust size as needed */
+  height: 30px; /* Adjust size as needed */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #000; /* Adjust border as needed */
+  font-size: 1.3rem; /* Adjust font size as needed */
+  font-weight: bold;
+  color: #000;
+  background-color: #f0f0f0; /* Adjust background color as needed */
+}
+
+.separator {
+  font-size: 2rem; /* Adjust font size as needed */
+  margin: 0 5px; /* Adjust spacing as needed */
+}
+.gameId {
+  text-align: end;
+  margin-top: -0.3rem;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-right: 1rem;
+}
+.gameChoice {
+  margin-top: 2rem;
+  position: relative;
+  padding: 1rem;
+  width: 90%;
+  background-color: black;
+  border-radius: 10px;
+}
+.numberChoices {
+  display: flex;
+  justify-content: space-between;
+}
+.greenButton {
+  background-color: #17b660;
+  width: 30%;
+  border-radius: 0px 10px 0px 10px;
+  color: white;
+}
+.redButton {
+  background-color: #fb5b5b;
+  border-radius: 10px 0px 10px 0px;
+  width: 33%;
+  color: white;
+}
+.violetButton {
+  background-color: #c86eff;
+  border-radius: 7px;
+  width: 30%;
+  color: white;
+}
+.multiplierContainers {
+  display: flex;
+  gap: 3px;
+  align-items: center;
+  margin-top: 1rem;
+}
+.random {
+  border: 1px solid orange;
+  background-color: transparent;
+  width: 30%;
+  border-radius: 9px;
+  color: orange;
+  padding: 0;
+  height: 37px;
+}
+.multipleButton {
+  width: 15%;
+  height: 37px;
+  color: white;
+  padding: 4px;
+  border-radius: 5px;
+  background-color: rgb(27, 27, 27);
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+.mhighlighted {
+  background-color: #508c9b;
+}
+.selectNumber.highlighted {
+  transform: scale(1.2);
+}
+.bigorsmallcontainer {
+  display: flex;
+  margin-top: 1rem;
+}
+.bigButton {
+  width: 50%;
+  font-size: 1.2rem;
+  font-weight: 800;
+  border-radius: 40px 0px 0px 40px;
+  background-color: #feaa57;
+  color: white;
+}
+.smallButton {
+  width: 50%;
+  font-size: 1.2rem;
+  font-weight: 800;
+  border-radius: 0px 40px 40px 0px;
+  background-color: #6fa8f4;
+  color: white;
+}
+.bottomNavigation {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-between;
+}
+.gameHistory {
+  width: 47%;
+  background-color: rgb(37, 37, 37);
+
+  border-radius: 10px;
+  color: white;
+  font-weight: 700;
+}
+.myHistory {
+  width: 47%;
+  border-radius: 10px;
+  padding: 20px;
+  font-weight: 700;
+  background-color: rgb(37, 37, 37);
+  color: white;
+}
+.chosenBNavigation {
+  background-color: #508c9b;
+}
+.overlayCountdown {
+  position: absolute;
+  z-index: 20;
+  top: -2%;
+  background-color: white;
+  border-radius: 10px;
+  opacity: 0.7;
+  width: 95%;
+  height: 100%;
+  font-size: 5rem;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 1000;
+}

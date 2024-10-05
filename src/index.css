@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Space+Grotesk:wght@300..700&display=swap");
+@font-face {
+  font-family: "Thunder";
+  src: url("./assets/fonts/Thunder-BoldLC.woff2");
+}
+@font-face {
+  font-family: "ThunderSmall";
+  src: url("./assets/fonts/Thunder-LightLC.woff2");
+}
+body {
+  margin: 0;
+  font-family: "DM Sans";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: white;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}

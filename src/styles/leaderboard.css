@@ -1,0 +1,35 @@
+.leaderBoardContainer {
+  border-radius: 20px;
+  font-family: "Dm Sans";
+  font-size: 0.9rem;
+  margin-top: 2rem;
+}
+.leaderBoardContainer table thead {
+  background-color: #508c9b;
+}
+td {
+  text-align: center;
+}
+.statsNumber {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+.circleColor {
+  width: 10px;
+  height: 10px;
+  background-color: white;
+  border-radius: 50%;
+}
+.colorContainer {
+  display: flex;
+  gap: 2px;
+  align-items: flex-end;
+}
+.gradient-text {
+  background: var(--dynamic-gradient); /* Default gradient, can be overridden */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  display: inline-block;
+}

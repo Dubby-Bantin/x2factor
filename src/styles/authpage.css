@@ -1,0 +1,95 @@
+svg {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+.topOfAuthPage {
+  background-color: #201e43;
+  padding: 1rem;
+}
+.bolden {
+  font-weight: 800;
+}
+.loginText {
+  font-size: 0.8rem;
+}
+.typesOfLogin {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+.loginmethod {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+.currentLoginMethod {
+  display: flex;
+}
+.line {
+  width: 50%;
+  height: 1px;
+  background-color: grey;
+}
+.chosenMethod {
+  background-color: #201e43;
+}
+.chosenLoginMethod p {
+  color: #508c9b;
+}
+.inputTitle {
+  font-size: 1.6rem;
+  font-weight: 800;
+  margin-bottom: 0.8rem;
+}
+.mainInput {
+  display: flex;
+  gap: 0.4rem;
+}
+.telechoice {
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  background-color: #201e43;
+}
+input {
+  padding: 1.3rem;
+  font-family: "Dm Sans";
+  border: none;
+  border-radius: 10px;
+  background-color: #201e43;
+  color: white;
+  width: 90%;
+}
+input::placeholder {
+  font-family: "Dm Sans";
+}
+
+.authButton {
+  width: 100%;
+  border-radius: 50px;
+  border: none;
+  padding: 1.3rem;
+  font-weight: 800;
+  margin: 0.2rem auto;
+  cursor: pointer;
+}
+.loginButton {
+  background-color: #508c9b;
+  color: white;
+}
+.registerButton {
+  background-color: transparent;
+  color: #508c9b;
+  border: 1px solid #508c9b;
+}
+.helpButtons {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 2rem;
+}
+.helpButton {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
